@@ -1,0 +1,21 @@
+[project]
+name = "traveller-public"
+version = "0.1.0"
+description = "Traveller retrieval and evaluation for LongMemEval V2"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "httpx==0.28.1",
+    "openai==3.37.0",
+    "python-dotenv==1.1.1",
+    "pillow==11.3.0",
+    "tqdm==4.67.1",
+    "transformers==5.20.1",
+    "torch==2.7.1",
+    "torchvision==0.22.1",
+]
+
+[project.optional-dependencies]
+providers = ["google-genai", "together"]
+
+[tool.uv]
+package = false
