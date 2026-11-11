@@ -1,0 +1,4536 @@
+{
+  "questions": 451,
+  "tokens": {
+    "cache_write_input_tokens": 0,
+    "cached_input_tokens": 70181760,
+    "input_tokens": 81046474,
+    "output_tokens": 240003,
+    "reasoning_output_tokens": 4141
+  },
+  "controller_estimate_usd": 190.82905,
+  "reader_grader_usd": 1.62694161,
+  "total_estimate_usd": 192.45599160999998,
+  "rates_per_million": {
+    "uncached_input": 10,
+    "cached_input": 1,
+    "output": 50
+  },
+  "source": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+  "assumptions": [
+    "Standard short-context rates, same cached-token usage as CLI; no long-context or service-tier premiums. Per-question totals combine multiple requests and do not identify individual request context sizes.",
+    "Zero recorded cache-write tokens. Reasoning tokens are included in output, not added twice.",
+    "API-equivalent estimate, not subscription billing; excludes uncertain charges."
+  ],
+  "records": [
+    {
+      "id": "00aa905a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121344,
+        "input_tokens": 141603,
+        "output_tokens": 395,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "01307e07",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110336,
+        "input_tokens": 123757,
+        "output_tokens": 426,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "01f6e679",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 102656,
+        "input_tokens": 129338,
+        "output_tokens": 370,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "025db8ef",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 126592,
+        "input_tokens": 146616,
+        "output_tokens": 446,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0382ed92",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 104448,
+        "input_tokens": 124705,
+        "output_tokens": 511,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0401f0c8",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 139904,
+        "input_tokens": 156670,
+        "output_tokens": 483,
+        "reasoning_output_tokens": 10
+      }
+    },
+    {
+      "id": "0574c69a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 166016,
+        "input_tokens": 192665,
+        "output_tokens": 859,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "057a2d4d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 173696,
+        "input_tokens": 199632,
+        "output_tokens": 451,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "059974dd",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 112896,
+        "input_tokens": 133105,
+        "output_tokens": 483,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "05cce9b3",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 105472,
+        "input_tokens": 115669,
+        "output_tokens": 374,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "06a5a25f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 207104,
+        "input_tokens": 236229,
+        "output_tokens": 572,
+        "reasoning_output_tokens": 13
+      }
+    },
+    {
+      "id": "06e965cf",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121216,
+        "input_tokens": 140317,
+        "output_tokens": 358,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0738c1ac",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 106880,
+        "input_tokens": 118940,
+        "output_tokens": 323,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "07a0145f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 269568,
+        "input_tokens": 296675,
+        "output_tokens": 886,
+        "reasoning_output_tokens": 41
+      }
+    },
+    {
+      "id": "07ab3723",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122368,
+        "input_tokens": 146258,
+        "output_tokens": 418,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "07b49858",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 214400,
+        "input_tokens": 237923,
+        "output_tokens": 682,
+        "reasoning_output_tokens": 28
+      }
+    },
+    {
+      "id": "07d86be1",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 152704,
+        "input_tokens": 174772,
+        "output_tokens": 404,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "07ffeedf",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 353152,
+        "input_tokens": 402345,
+        "output_tokens": 1092,
+        "reasoning_output_tokens": 125
+      }
+    },
+    {
+      "id": "07fff330",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 208768,
+        "input_tokens": 241650,
+        "output_tokens": 730,
+        "reasoning_output_tokens": 17
+      }
+    },
+    {
+      "id": "080b0218",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 153472,
+        "input_tokens": 176327,
+        "output_tokens": 409,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0a13e290",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 120192,
+        "input_tokens": 137734,
+        "output_tokens": 501,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0a4a47e6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 154368,
+        "input_tokens": 176890,
+        "output_tokens": 459,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0ace674b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 118016,
+        "input_tokens": 133623,
+        "output_tokens": 460,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0af83ccc",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 149888,
+        "input_tokens": 172652,
+        "output_tokens": 507,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0b50ca0d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 196736,
+        "input_tokens": 236863,
+        "output_tokens": 510,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0c0fdcd7",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 139392,
+        "input_tokens": 156587,
+        "output_tokens": 414,
+        "reasoning_output_tokens": 7
+      }
+    },
+    {
+      "id": "0c6b0c60",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 108416,
+        "input_tokens": 120373,
+        "output_tokens": 368,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0cd6dc43",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 169600,
+        "input_tokens": 186456,
+        "output_tokens": 575,
+        "reasoning_output_tokens": 11
+      }
+    },
+    {
+      "id": "0cf979c4",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 105728,
+        "input_tokens": 124951,
+        "output_tokens": 425,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0d07143c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 175360,
+        "input_tokens": 196170,
+        "output_tokens": 450,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0f8c85a6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 139776,
+        "input_tokens": 170984,
+        "output_tokens": 346,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0f970f01",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 108032,
+        "input_tokens": 148452,
+        "output_tokens": 377,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "0fe2c676",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 164608,
+        "input_tokens": 198086,
+        "output_tokens": 778,
+        "reasoning_output_tokens": 45
+      }
+    },
+    {
+      "id": "10003186",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 119040,
+        "input_tokens": 143873,
+        "output_tokens": 367,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "100ff132",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 258816,
+        "input_tokens": 296820,
+        "output_tokens": 654,
+        "reasoning_output_tokens": 31
+      }
+    },
+    {
+      "id": "10466872",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 94848,
+        "input_tokens": 104293,
+        "output_tokens": 354,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "106c321b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 85504,
+        "input_tokens": 101103,
+        "output_tokens": 336,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "109b334c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 180608,
+        "input_tokens": 208650,
+        "output_tokens": 624,
+        "reasoning_output_tokens": 11
+      }
+    },
+    {
+      "id": "11cc7ac2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 178816,
+        "input_tokens": 211840,
+        "output_tokens": 502,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "11dac74b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 133760,
+        "input_tokens": 146925,
+        "output_tokens": 486,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "12286151",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 172544,
+        "input_tokens": 191528,
+        "output_tokens": 539,
+        "reasoning_output_tokens": 12
+      }
+    },
+    {
+      "id": "123b74fb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121728,
+        "input_tokens": 147998,
+        "output_tokens": 566,
+        "reasoning_output_tokens": 36
+      }
+    },
+    {
+      "id": "12f8cfd2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 180864,
+        "input_tokens": 206361,
+        "output_tokens": 536,
+        "reasoning_output_tokens": 22
+      }
+    },
+    {
+      "id": "14a823df",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 115072,
+        "input_tokens": 131231,
+        "output_tokens": 384,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "15e5efa6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 144768,
+        "input_tokens": 180852,
+        "output_tokens": 612,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "17a03f9b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 111488,
+        "input_tokens": 130825,
+        "output_tokens": 342,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "17d63ad8",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 151168,
+        "input_tokens": 171294,
+        "output_tokens": 475,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "18b91103",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 176896,
+        "input_tokens": 204088,
+        "output_tokens": 697,
+        "reasoning_output_tokens": 59
+      }
+    },
+    {
+      "id": "18f9d965",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 142976,
+        "input_tokens": 168070,
+        "output_tokens": 401,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "191184f3",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 231168,
+        "input_tokens": 264903,
+        "output_tokens": 591,
+        "reasoning_output_tokens": 8
+      }
+    },
+    {
+      "id": "19367bc7",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 128256,
+        "input_tokens": 150573,
+        "output_tokens": 358,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "196a68fb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 145792,
+        "input_tokens": 163699,
+        "output_tokens": 518,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "19935d2d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 242560,
+        "input_tokens": 265660,
+        "output_tokens": 635,
+        "reasoning_output_tokens": 21
+      }
+    },
+    {
+      "id": "19c641bd",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 124032,
+        "input_tokens": 146502,
+        "output_tokens": 482,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "1a89c3ac",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 141056,
+        "input_tokens": 157112,
+        "output_tokens": 514,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "1b43f7df",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 131840,
+        "input_tokens": 147688,
+        "output_tokens": 481,
+        "reasoning_output_tokens": 37
+      }
+    },
+    {
+      "id": "1bfd2eac",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 244224,
+        "input_tokens": 288963,
+        "output_tokens": 822,
+        "reasoning_output_tokens": 25
+      }
+    },
+    {
+      "id": "1cf04706",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 185472,
+        "input_tokens": 211632,
+        "output_tokens": 497,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "1d864942",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 123776,
+        "input_tokens": 149325,
+        "output_tokens": 480,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "1defc293",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 104576,
+        "input_tokens": 122912,
+        "output_tokens": 531,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "1e011eb5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121984,
+        "input_tokens": 144100,
+        "output_tokens": 403,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "1e77eb4b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 115712,
+        "input_tokens": 136198,
+        "output_tokens": 507,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "1fec75e5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 126336,
+        "input_tokens": 147610,
+        "output_tokens": 440,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "21df0107",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 118656,
+        "input_tokens": 135813,
+        "output_tokens": 469,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "21f3228c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 272768,
+        "input_tokens": 297723,
+        "output_tokens": 631,
+        "reasoning_output_tokens": 15
+      }
+    },
+    {
+      "id": "229675cd",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121728,
+        "input_tokens": 148012,
+        "output_tokens": 432,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "233f9f09",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 166400,
+        "input_tokens": 195082,
+        "output_tokens": 608,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "237d2cc5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 169216,
+        "input_tokens": 195573,
+        "output_tokens": 485,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "238c3621",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 169984,
+        "input_tokens": 190251,
+        "output_tokens": 472,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "23aecb38",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 113920,
+        "input_tokens": 129273,
+        "output_tokens": 386,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "23c3e290",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 108800,
+        "input_tokens": 138249,
+        "output_tokens": 474,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "2408b115",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 172800,
+        "input_tokens": 198400,
+        "output_tokens": 572,
+        "reasoning_output_tokens": 34
+      }
+    },
+    {
+      "id": "247bf724",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 147456,
+        "input_tokens": 173236,
+        "output_tokens": 523,
+        "reasoning_output_tokens": 42
+      }
+    },
+    {
+      "id": "25853d7f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 112512,
+        "input_tokens": 125602,
+        "output_tokens": 387,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "25b00876",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 123904,
+        "input_tokens": 147334,
+        "output_tokens": 405,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "25dc1d7d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 147712,
+        "input_tokens": 158531,
+        "output_tokens": 570,
+        "reasoning_output_tokens": 10
+      }
+    },
+    {
+      "id": "26a038ce",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 118784,
+        "input_tokens": 136994,
+        "output_tokens": 368,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "2721ca7f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 132096,
+        "input_tokens": 151792,
+        "output_tokens": 457,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "285db8ec",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 257408,
+        "input_tokens": 293543,
+        "output_tokens": 660,
+        "reasoning_output_tokens": 34
+      }
+    },
+    {
+      "id": "289aea4a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 119936,
+        "input_tokens": 142444,
+        "output_tokens": 496,
+        "reasoning_output_tokens": 20
+      }
+    },
+    {
+      "id": "2975030d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 148352,
+        "input_tokens": 171952,
+        "output_tokens": 373,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "2ad054b5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 247296,
+        "input_tokens": 282026,
+        "output_tokens": 769,
+        "reasoning_output_tokens": 17
+      }
+    },
+    {
+      "id": "2b1a8fc6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 115584,
+        "input_tokens": 133394,
+        "output_tokens": 382,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "2b96f402",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 102144,
+        "input_tokens": 116159,
+        "output_tokens": 368,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "2ca2d443",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 154112,
+        "input_tokens": 188519,
+        "output_tokens": 615,
+        "reasoning_output_tokens": 22
+      }
+    },
+    {
+      "id": "2cc1b9ca",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 271744,
+        "input_tokens": 312679,
+        "output_tokens": 984,
+        "reasoning_output_tokens": 100
+      }
+    },
+    {
+      "id": "2d4e08b9",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 214528,
+        "input_tokens": 244920,
+        "output_tokens": 767,
+        "reasoning_output_tokens": 13
+      }
+    },
+    {
+      "id": "2e67d04f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 204672,
+        "input_tokens": 242348,
+        "output_tokens": 682,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "2e90de97",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 165760,
+        "input_tokens": 197715,
+        "output_tokens": 434,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "2ee130d2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116480,
+        "input_tokens": 133300,
+        "output_tokens": 411,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "2f6a21cd",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 208000,
+        "input_tokens": 243682,
+        "output_tokens": 885,
+        "reasoning_output_tokens": 50
+      }
+    },
+    {
+      "id": "2fab8b79",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 287360,
+        "input_tokens": 323228,
+        "output_tokens": 613,
+        "reasoning_output_tokens": 10
+      }
+    },
+    {
+      "id": "302bf60e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 164352,
+        "input_tokens": 190188,
+        "output_tokens": 600,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "30fab98c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121856,
+        "input_tokens": 145681,
+        "output_tokens": 412,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "31f146ba",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 161920,
+        "input_tokens": 187111,
+        "output_tokens": 676,
+        "reasoning_output_tokens": 16
+      }
+    },
+    {
+      "id": "3269a3c5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 123776,
+        "input_tokens": 144878,
+        "output_tokens": 372,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "32909aa1",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 88832,
+        "input_tokens": 122277,
+        "output_tokens": 367,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "329742b1",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 180096,
+        "input_tokens": 202812,
+        "output_tokens": 657,
+        "reasoning_output_tokens": 19
+      }
+    },
+    {
+      "id": "32d04f31",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121472,
+        "input_tokens": 139711,
+        "output_tokens": 360,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "32e719c2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 108928,
+        "input_tokens": 122085,
+        "output_tokens": 393,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "358c13ce",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 137472,
+        "input_tokens": 156606,
+        "output_tokens": 560,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "36fe48ef",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 98688,
+        "input_tokens": 119991,
+        "output_tokens": 376,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "38726e61",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 136960,
+        "input_tokens": 166263,
+        "output_tokens": 435,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "3a131a42",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110720,
+        "input_tokens": 133511,
+        "output_tokens": 489,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "3a2e9368",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 123008,
+        "input_tokens": 141141,
+        "output_tokens": 456,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "3a7a7880",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 244736,
+        "input_tokens": 275420,
+        "output_tokens": 710,
+        "reasoning_output_tokens": 43
+      }
+    },
+    {
+      "id": "3a836b31",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 280192,
+        "input_tokens": 322115,
+        "output_tokens": 1006,
+        "reasoning_output_tokens": 71
+      }
+    },
+    {
+      "id": "3b375e30",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 215936,
+        "input_tokens": 249307,
+        "output_tokens": 790,
+        "reasoning_output_tokens": 9
+      }
+    },
+    {
+      "id": "3b8210a1",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 280576,
+        "input_tokens": 307864,
+        "output_tokens": 708,
+        "reasoning_output_tokens": 8
+      }
+    },
+    {
+      "id": "3daef058",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 161792,
+        "input_tokens": 192353,
+        "output_tokens": 614,
+        "reasoning_output_tokens": 10
+      }
+    },
+    {
+      "id": "3f366e15",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116736,
+        "input_tokens": 133904,
+        "output_tokens": 343,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "3fd81278",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 142336,
+        "input_tokens": 160663,
+        "output_tokens": 474,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "401566e6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 166912,
+        "input_tokens": 195514,
+        "output_tokens": 673,
+        "reasoning_output_tokens": 19
+      }
+    },
+    {
+      "id": "40758d8b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 228608,
+        "input_tokens": 255897,
+        "output_tokens": 725,
+        "reasoning_output_tokens": 32
+      }
+    },
+    {
+      "id": "4121647c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 128640,
+        "input_tokens": 141557,
+        "output_tokens": 427,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "41a18e5c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 161664,
+        "input_tokens": 189756,
+        "output_tokens": 501,
+        "reasoning_output_tokens": 46
+      }
+    },
+    {
+      "id": "41bb40df",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 129152,
+        "input_tokens": 140772,
+        "output_tokens": 420,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "4252cc1c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 180224,
+        "input_tokens": 200779,
+        "output_tokens": 539,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "4266cb67",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 215936,
+        "input_tokens": 250377,
+        "output_tokens": 699,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "42a55762",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 161920,
+        "input_tokens": 191852,
+        "output_tokens": 556,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "42d13006",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 154880,
+        "input_tokens": 177157,
+        "output_tokens": 561,
+        "reasoning_output_tokens": 15
+      }
+    },
+    {
+      "id": "4329b535",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 125824,
+        "input_tokens": 151817,
+        "output_tokens": 473,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "436c58d5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 131712,
+        "input_tokens": 145942,
+        "output_tokens": 430,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "43d9c5d0",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 167808,
+        "input_tokens": 185956,
+        "output_tokens": 630,
+        "reasoning_output_tokens": 40
+      }
+    },
+    {
+      "id": "44c05e59",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 126464,
+        "input_tokens": 150371,
+        "output_tokens": 485,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "45d1e7f1",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 157568,
+        "input_tokens": 182982,
+        "output_tokens": 588,
+        "reasoning_output_tokens": 22
+      }
+    },
+    {
+      "id": "4755f316",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 229248,
+        "input_tokens": 264116,
+        "output_tokens": 548,
+        "reasoning_output_tokens": 12
+      }
+    },
+    {
+      "id": "48a52262",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 192512,
+        "input_tokens": 232903,
+        "output_tokens": 703,
+        "reasoning_output_tokens": 15
+      }
+    },
+    {
+      "id": "4964afed",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 176000,
+        "input_tokens": 201171,
+        "output_tokens": 727,
+        "reasoning_output_tokens": 38
+      }
+    },
+    {
+      "id": "499488a6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 209536,
+        "input_tokens": 242662,
+        "output_tokens": 661,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "4a4aad22",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 224000,
+        "input_tokens": 251415,
+        "output_tokens": 758,
+        "reasoning_output_tokens": 54
+      }
+    },
+    {
+      "id": "4b0c5275",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 114176,
+        "input_tokens": 132011,
+        "output_tokens": 491,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "4c6d1eb7",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122624,
+        "input_tokens": 151739,
+        "output_tokens": 413,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "4ca9f7d7",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116992,
+        "input_tokens": 133810,
+        "output_tokens": 389,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "4cb090a9",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 114176,
+        "input_tokens": 129865,
+        "output_tokens": 496,
+        "reasoning_output_tokens": 17
+      }
+    },
+    {
+      "id": "4d7dda89",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110336,
+        "input_tokens": 131762,
+        "output_tokens": 448,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "4df5e6b4",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 143488,
+        "input_tokens": 173372,
+        "output_tokens": 548,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "4dffe641",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 113664,
+        "input_tokens": 139789,
+        "output_tokens": 354,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "4ed01379",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 279936,
+        "input_tokens": 330291,
+        "output_tokens": 1011,
+        "reasoning_output_tokens": 46
+      }
+    },
+    {
+      "id": "4f92aa38",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 115200,
+        "input_tokens": 133552,
+        "output_tokens": 550,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "50711c52",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 229632,
+        "input_tokens": 259135,
+        "output_tokens": 611,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "507a0fe8",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 159360,
+        "input_tokens": 188386,
+        "output_tokens": 612,
+        "reasoning_output_tokens": 48
+      }
+    },
+    {
+      "id": "50bfa714",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 417024,
+        "input_tokens": 460539,
+        "output_tokens": 984,
+        "reasoning_output_tokens": 85
+      }
+    },
+    {
+      "id": "50d92f55",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 167168,
+        "input_tokens": 196303,
+        "output_tokens": 690,
+        "reasoning_output_tokens": 11
+      }
+    },
+    {
+      "id": "51764e11",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 112896,
+        "input_tokens": 129084,
+        "output_tokens": 463,
+        "reasoning_output_tokens": 22
+      }
+    },
+    {
+      "id": "521b124f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 106112,
+        "input_tokens": 121425,
+        "output_tokens": 382,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "52dd33bb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 191616,
+        "input_tokens": 227290,
+        "output_tokens": 712,
+        "reasoning_output_tokens": 22
+      }
+    },
+    {
+      "id": "5387d23d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 138624,
+        "input_tokens": 157915,
+        "output_tokens": 593,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "549c0657",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 156288,
+        "input_tokens": 184752,
+        "output_tokens": 587,
+        "reasoning_output_tokens": 12
+      }
+    },
+    {
+      "id": "571b841c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 155648,
+        "input_tokens": 185025,
+        "output_tokens": 512,
+        "reasoning_output_tokens": 11
+      }
+    },
+    {
+      "id": "577ab4ee",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 129920,
+        "input_tokens": 148400,
+        "output_tokens": 496,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "57817b87",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 111872,
+        "input_tokens": 124751,
+        "output_tokens": 391,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "57cd3560",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 105728,
+        "input_tokens": 122476,
+        "output_tokens": 424,
+        "reasoning_output_tokens": 15
+      }
+    },
+    {
+      "id": "5849c18b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 298368,
+        "input_tokens": 338931,
+        "output_tokens": 909,
+        "reasoning_output_tokens": 43
+      }
+    },
+    {
+      "id": "58c34839",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 190336,
+        "input_tokens": 227642,
+        "output_tokens": 853,
+        "reasoning_output_tokens": 35
+      }
+    },
+    {
+      "id": "597645be",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 155008,
+        "input_tokens": 184281,
+        "output_tokens": 641,
+        "reasoning_output_tokens": 16
+      }
+    },
+    {
+      "id": "597ca614",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 151040,
+        "input_tokens": 176982,
+        "output_tokens": 680,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "5a85ca0f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 189056,
+        "input_tokens": 219660,
+        "output_tokens": 592,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "5aaf0f61",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 198400,
+        "input_tokens": 231889,
+        "output_tokens": 673,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "5b249b5c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 188032,
+        "input_tokens": 213258,
+        "output_tokens": 491,
+        "reasoning_output_tokens": 7
+      }
+    },
+    {
+      "id": "5c826b28",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 101888,
+        "input_tokens": 125444,
+        "output_tokens": 447,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "5ca112bf",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 424064,
+        "input_tokens": 465573,
+        "output_tokens": 825,
+        "reasoning_output_tokens": 49
+      }
+    },
+    {
+      "id": "5cb7289b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 154496,
+        "input_tokens": 171281,
+        "output_tokens": 585,
+        "reasoning_output_tokens": 34
+      }
+    },
+    {
+      "id": "5d6b993a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 142848,
+        "input_tokens": 167531,
+        "output_tokens": 598,
+        "reasoning_output_tokens": 24
+      }
+    },
+    {
+      "id": "5d6ecdeb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 120960,
+        "input_tokens": 143295,
+        "output_tokens": 473,
+        "reasoning_output_tokens": 15
+      }
+    },
+    {
+      "id": "5db4899c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116864,
+        "input_tokens": 145545,
+        "output_tokens": 474,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "5edd2533",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 435584,
+        "input_tokens": 477165,
+        "output_tokens": 822,
+        "reasoning_output_tokens": 36
+      }
+    },
+    {
+      "id": "5f100f22",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 124160,
+        "input_tokens": 146858,
+        "output_tokens": 487,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "609acb91",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 117504,
+        "input_tokens": 134628,
+        "output_tokens": 397,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "60c7ca22",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 115840,
+        "input_tokens": 132444,
+        "output_tokens": 363,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "60f2b293",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 127104,
+        "input_tokens": 151460,
+        "output_tokens": 471,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "616c238d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 123648,
+        "input_tokens": 140434,
+        "output_tokens": 401,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "626e401e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 117760,
+        "input_tokens": 133899,
+        "output_tokens": 502,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "631667c9",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 128896,
+        "input_tokens": 139949,
+        "output_tokens": 408,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "634973c3",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 241664,
+        "input_tokens": 266973,
+        "output_tokens": 539,
+        "reasoning_output_tokens": 23
+      }
+    },
+    {
+      "id": "63a1b94b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 117120,
+        "input_tokens": 135132,
+        "output_tokens": 394,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6517165d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110592,
+        "input_tokens": 124566,
+        "output_tokens": 440,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "658fa827",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 104064,
+        "input_tokens": 136369,
+        "output_tokens": 515,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "65fbcbdf",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 222080,
+        "input_tokens": 253007,
+        "output_tokens": 571,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6652c337",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 130816,
+        "input_tokens": 142662,
+        "output_tokens": 456,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "668f7b74",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 221184,
+        "input_tokens": 253487,
+        "output_tokens": 520,
+        "reasoning_output_tokens": 45
+      }
+    },
+    {
+      "id": "66ed4c72",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110080,
+        "input_tokens": 128065,
+        "output_tokens": 422,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "674a6972",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110080,
+        "input_tokens": 123599,
+        "output_tokens": 396,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "679111c6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 202112,
+        "input_tokens": 233145,
+        "output_tokens": 902,
+        "reasoning_output_tokens": 15
+      }
+    },
+    {
+      "id": "68107cba",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 194688,
+        "input_tokens": 227711,
+        "output_tokens": 519,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "691cd1da",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116992,
+        "input_tokens": 133513,
+        "output_tokens": 356,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6a23675f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 130560,
+        "input_tokens": 151826,
+        "output_tokens": 438,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6a2e74de",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 176256,
+        "input_tokens": 199071,
+        "output_tokens": 531,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6a5bbcdb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 214656,
+        "input_tokens": 241227,
+        "output_tokens": 816,
+        "reasoning_output_tokens": 51
+      }
+    },
+    {
+      "id": "6a73e32b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 141056,
+        "input_tokens": 157398,
+        "output_tokens": 397,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6a7808c5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 113792,
+        "input_tokens": 128906,
+        "output_tokens": 392,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6a7f0d24",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 189056,
+        "input_tokens": 204439,
+        "output_tokens": 657,
+        "reasoning_output_tokens": 26
+      }
+    },
+    {
+      "id": "6c285a23",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 189952,
+        "input_tokens": 215965,
+        "output_tokens": 600,
+        "reasoning_output_tokens": 12
+      }
+    },
+    {
+      "id": "6cb662d7",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 202240,
+        "input_tokens": 231611,
+        "output_tokens": 614,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6cb8ce37",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 142592,
+        "input_tokens": 165237,
+        "output_tokens": 482,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6d975a08",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 139264,
+        "input_tokens": 155814,
+        "output_tokens": 406,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6e0759a2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 175104,
+        "input_tokens": 211548,
+        "output_tokens": 554,
+        "reasoning_output_tokens": 12
+      }
+    },
+    {
+      "id": "6f9cb5fc",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 104320,
+        "input_tokens": 113567,
+        "output_tokens": 362,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6fdda2fc",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 159232,
+        "input_tokens": 192520,
+        "output_tokens": 591,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6feb33d4",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 115712,
+        "input_tokens": 130738,
+        "output_tokens": 400,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "70e79657",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 117632,
+        "input_tokens": 135383,
+        "output_tokens": 389,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "71026f57",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 115840,
+        "input_tokens": 131182,
+        "output_tokens": 417,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "7195f494",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 142080,
+        "input_tokens": 159204,
+        "output_tokens": 483,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "71e61e15",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 237952,
+        "input_tokens": 268344,
+        "output_tokens": 1035,
+        "reasoning_output_tokens": 52
+      }
+    },
+    {
+      "id": "73297783",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 156800,
+        "input_tokens": 182546,
+        "output_tokens": 697,
+        "reasoning_output_tokens": 31
+      }
+    },
+    {
+      "id": "733699a5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 118912,
+        "input_tokens": 136918,
+        "output_tokens": 419,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "7351cbcc",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 159232,
+        "input_tokens": 182531,
+        "output_tokens": 528,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "7376c10d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110464,
+        "input_tokens": 124132,
+        "output_tokens": 503,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "73b6738b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 232192,
+        "input_tokens": 262218,
+        "output_tokens": 695,
+        "reasoning_output_tokens": 12
+      }
+    },
+    {
+      "id": "73cbefdc",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116992,
+        "input_tokens": 133993,
+        "output_tokens": 505,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "744dbdad",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 118144,
+        "input_tokens": 138116,
+        "output_tokens": 411,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "756a7434",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 130560,
+        "input_tokens": 154035,
+        "output_tokens": 446,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "75816b26",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 136448,
+        "input_tokens": 166072,
+        "output_tokens": 474,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "7586cf7c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 197504,
+        "input_tokens": 230110,
+        "output_tokens": 840,
+        "reasoning_output_tokens": 13
+      }
+    },
+    {
+      "id": "762d34b8",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122496,
+        "input_tokens": 146562,
+        "output_tokens": 533,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "767e4106",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 123904,
+        "input_tokens": 142679,
+        "output_tokens": 455,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "77258cda",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122880,
+        "input_tokens": 140589,
+        "output_tokens": 515,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "77db204d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 106112,
+        "input_tokens": 116370,
+        "output_tokens": 382,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "78686f4e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 108800,
+        "input_tokens": 121378,
+        "output_tokens": 386,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "7a07e9a0",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 340352,
+        "input_tokens": 379429,
+        "output_tokens": 1137,
+        "reasoning_output_tokens": 60
+      }
+    },
+    {
+      "id": "7bfbd5f1",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 120704,
+        "input_tokens": 139541,
+        "output_tokens": 399,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "7c8efee5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 233984,
+        "input_tokens": 261626,
+        "output_tokens": 724,
+        "reasoning_output_tokens": 32
+      }
+    },
+    {
+      "id": "7df9e2ff",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 108416,
+        "input_tokens": 132960,
+        "output_tokens": 542,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "7e32e4a2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 231552,
+        "input_tokens": 273628,
+        "output_tokens": 1135,
+        "reasoning_output_tokens": 22
+      }
+    },
+    {
+      "id": "7ea13f14",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 99968,
+        "input_tokens": 115568,
+        "output_tokens": 426,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "7ebb0b95",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 132352,
+        "input_tokens": 160446,
+        "output_tokens": 458,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "81180ae9",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 287360,
+        "input_tokens": 328130,
+        "output_tokens": 960,
+        "reasoning_output_tokens": 9
+      }
+    },
+    {
+      "id": "820d56e2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 103936,
+        "input_tokens": 116502,
+        "output_tokens": 365,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "823d133a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 230656,
+        "input_tokens": 258953,
+        "output_tokens": 608,
+        "reasoning_output_tokens": 18
+      }
+    },
+    {
+      "id": "82cdfcc3",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 214016,
+        "input_tokens": 245226,
+        "output_tokens": 630,
+        "reasoning_output_tokens": 70
+      }
+    },
+    {
+      "id": "83a77f9d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122368,
+        "input_tokens": 142086,
+        "output_tokens": 422,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "83c35034",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 162048,
+        "input_tokens": 188249,
+        "output_tokens": 507,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "84238c8f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 112384,
+        "input_tokens": 127102,
+        "output_tokens": 407,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "85251f36",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 145408,
+        "input_tokens": 175308,
+        "output_tokens": 565,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "85fc5722",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 210688,
+        "input_tokens": 234806,
+        "output_tokens": 502,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "866a0f2e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 111616,
+        "input_tokens": 126037,
+        "output_tokens": 461,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "86f00073",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 210432,
+        "input_tokens": 234064,
+        "output_tokens": 562,
+        "reasoning_output_tokens": 9
+      }
+    },
+    {
+      "id": "86fa86eb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 106240,
+        "input_tokens": 117222,
+        "output_tokens": 357,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "876c720a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 166528,
+        "input_tokens": 190399,
+        "output_tokens": 470,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "87711b62",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 117248,
+        "input_tokens": 134183,
+        "output_tokens": 380,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "882965b7",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 212608,
+        "input_tokens": 248435,
+        "output_tokens": 636,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "89439d62",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 217344,
+        "input_tokens": 260571,
+        "output_tokens": 774,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "8955b988",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 157184,
+        "input_tokens": 201322,
+        "output_tokens": 640,
+        "reasoning_output_tokens": 9
+      }
+    },
+    {
+      "id": "8957a127",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 100224,
+        "input_tokens": 131384,
+        "output_tokens": 402,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "896017e0",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 180096,
+        "input_tokens": 201424,
+        "output_tokens": 522,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "89a20f48",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 111232,
+        "input_tokens": 123879,
+        "output_tokens": 387,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "8a8f6aac",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 162432,
+        "input_tokens": 183963,
+        "output_tokens": 512,
+        "reasoning_output_tokens": 11
+      }
+    },
+    {
+      "id": "8b09f378",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 129024,
+        "input_tokens": 149926,
+        "output_tokens": 523,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "8b2a9dd3",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 222592,
+        "input_tokens": 255777,
+        "output_tokens": 490,
+        "reasoning_output_tokens": 12
+      }
+    },
+    {
+      "id": "8bc6d989",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 139008,
+        "input_tokens": 154048,
+        "output_tokens": 538,
+        "reasoning_output_tokens": 18
+      }
+    },
+    {
+      "id": "8c55d6bc",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 85760,
+        "input_tokens": 104097,
+        "output_tokens": 385,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "8d0400e5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 139904,
+        "input_tokens": 166948,
+        "output_tokens": 538,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "8da5c407",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 112384,
+        "input_tokens": 127118,
+        "output_tokens": 444,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "8e21c6e5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 160256,
+        "input_tokens": 182532,
+        "output_tokens": 617,
+        "reasoning_output_tokens": 18
+      }
+    },
+    {
+      "id": "8e320e42",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 125312,
+        "input_tokens": 152334,
+        "output_tokens": 357,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "8f70bc0e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 146816,
+        "input_tokens": 167964,
+        "output_tokens": 484,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "8f752563",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 212992,
+        "input_tokens": 250212,
+        "output_tokens": 705,
+        "reasoning_output_tokens": 23
+      }
+    },
+    {
+      "id": "901b7d17",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 115456,
+        "input_tokens": 131418,
+        "output_tokens": 394,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "90dc7e66",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 216064,
+        "input_tokens": 248133,
+        "output_tokens": 657,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "90df8253",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 138112,
+        "input_tokens": 163863,
+        "output_tokens": 346,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "910135bb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 135680,
+        "input_tokens": 164554,
+        "output_tokens": 674,
+        "reasoning_output_tokens": 27
+      }
+    },
+    {
+      "id": "914ab1d4",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 164992,
+        "input_tokens": 190948,
+        "output_tokens": 628,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "922a0c56",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 118528,
+        "input_tokens": 132977,
+        "output_tokens": 509,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "92642fe7",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 106752,
+        "input_tokens": 125902,
+        "output_tokens": 368,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "927c65a2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 275712,
+        "input_tokens": 316359,
+        "output_tokens": 822,
+        "reasoning_output_tokens": 13
+      }
+    },
+    {
+      "id": "93d0613b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 114304,
+        "input_tokens": 129380,
+        "output_tokens": 372,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "95ae824f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 213504,
+        "input_tokens": 251025,
+        "output_tokens": 937,
+        "reasoning_output_tokens": 48
+      }
+    },
+    {
+      "id": "96497069",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116864,
+        "input_tokens": 132275,
+        "output_tokens": 391,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "9680f077",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 168064,
+        "input_tokens": 192037,
+        "output_tokens": 542,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "97d5309a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 163072,
+        "input_tokens": 197071,
+        "output_tokens": 535,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "97e1d977",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 101120,
+        "input_tokens": 117706,
+        "output_tokens": 513,
+        "reasoning_output_tokens": 11
+      }
+    },
+    {
+      "id": "984022b1",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 125824,
+        "input_tokens": 152577,
+        "output_tokens": 413,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "98b62f3d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 139904,
+        "input_tokens": 155315,
+        "output_tokens": 425,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "98e6d369",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 141312,
+        "input_tokens": 159975,
+        "output_tokens": 556,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "99ae54d1",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110720,
+        "input_tokens": 135133,
+        "output_tokens": 368,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "99b6e22f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 162304,
+        "input_tokens": 188137,
+        "output_tokens": 724,
+        "reasoning_output_tokens": 16
+      }
+    },
+    {
+      "id": "99fa7c96",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 120960,
+        "input_tokens": 143763,
+        "output_tokens": 488,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "9b34f55b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 353792,
+        "input_tokens": 385444,
+        "output_tokens": 766,
+        "reasoning_output_tokens": 38
+      }
+    },
+    {
+      "id": "9c074855",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 107776,
+        "input_tokens": 119477,
+        "output_tokens": 394,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "9c24f41e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 143232,
+        "input_tokens": 164062,
+        "output_tokens": 472,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "9c32bca6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 113920,
+        "input_tokens": 129185,
+        "output_tokens": 386,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "9cae869c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 178816,
+        "input_tokens": 202849,
+        "output_tokens": 662,
+        "reasoning_output_tokens": 39
+      }
+    },
+    {
+      "id": "9e05978c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 129792,
+        "input_tokens": 157118,
+        "output_tokens": 404,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "9ed5a14d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 138496,
+        "input_tokens": 160070,
+        "output_tokens": 621,
+        "reasoning_output_tokens": 11
+      }
+    },
+    {
+      "id": "9ff0ffff",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116480,
+        "input_tokens": 132103,
+        "output_tokens": 442,
+        "reasoning_output_tokens": 13
+      }
+    },
+    {
+      "id": "a12b7094",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 109184,
+        "input_tokens": 127244,
+        "output_tokens": 386,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a2673690",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 167680,
+        "input_tokens": 201666,
+        "output_tokens": 552,
+        "reasoning_output_tokens": 12
+      }
+    },
+    {
+      "id": "a2a71197",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 119680,
+        "input_tokens": 144636,
+        "output_tokens": 424,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a363341d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116992,
+        "input_tokens": 132442,
+        "output_tokens": 443,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a3a7b079",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 162176,
+        "input_tokens": 188159,
+        "output_tokens": 500,
+        "reasoning_output_tokens": 27
+      }
+    },
+    {
+      "id": "a42071db",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 127488,
+        "input_tokens": 152037,
+        "output_tokens": 509,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a444cec8",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 123904,
+        "input_tokens": 146595,
+        "output_tokens": 447,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a45edf3e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 155264,
+        "input_tokens": 178216,
+        "output_tokens": 460,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a482c0d9",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 231424,
+        "input_tokens": 270856,
+        "output_tokens": 802,
+        "reasoning_output_tokens": 15
+      }
+    },
+    {
+      "id": "a58c5548",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 124032,
+        "input_tokens": 146150,
+        "output_tokens": 487,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a59d50f7",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 161152,
+        "input_tokens": 187146,
+        "output_tokens": 555,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a62de1f1",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121984,
+        "input_tokens": 146633,
+        "output_tokens": 453,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a667402d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 138368,
+        "input_tokens": 162711,
+        "output_tokens": 597,
+        "reasoning_output_tokens": 29
+      }
+    },
+    {
+      "id": "a7da9ab3",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 127360,
+        "input_tokens": 151546,
+        "output_tokens": 505,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a7edfb7a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 114432,
+        "input_tokens": 148797,
+        "output_tokens": 494,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "a8959d04-abs",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 126464,
+        "input_tokens": 157119,
+        "output_tokens": 512,
+        "reasoning_output_tokens": 19
+      }
+    },
+    {
+      "id": "a92dff92",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 129024,
+        "input_tokens": 140169,
+        "output_tokens": 425,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "aa4a4b7b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 167296,
+        "input_tokens": 196988,
+        "output_tokens": 527,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "aa64a8bd",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 207360,
+        "input_tokens": 235369,
+        "output_tokens": 563,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "aa8d21f5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 105856,
+        "input_tokens": 116069,
+        "output_tokens": 371,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "abadf765",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 142976,
+        "input_tokens": 162699,
+        "output_tokens": 540,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "aca57021",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122496,
+        "input_tokens": 150865,
+        "output_tokens": 508,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "ad903be2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 108416,
+        "input_tokens": 120368,
+        "output_tokens": 332,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "adddeaa5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 201728,
+        "input_tokens": 235017,
+        "output_tokens": 805,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "aedd338d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 199936,
+        "input_tokens": 236731,
+        "output_tokens": 768,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "aef57896",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 218624,
+        "input_tokens": 246152,
+        "output_tokens": 468,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "af2ebaed",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 99456,
+        "input_tokens": 119795,
+        "output_tokens": 444,
+        "reasoning_output_tokens": 10
+      }
+    },
+    {
+      "id": "b05cf470",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116736,
+        "input_tokens": 131969,
+        "output_tokens": 420,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "b15314c0",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 162304,
+        "input_tokens": 188591,
+        "output_tokens": 519,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "b2595523",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 105984,
+        "input_tokens": 123798,
+        "output_tokens": 379,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "b339209c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 185856,
+        "input_tokens": 206262,
+        "output_tokens": 632,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "b4dcf650",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122240,
+        "input_tokens": 145711,
+        "output_tokens": 460,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "b54161f8",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 125696,
+        "input_tokens": 148527,
+        "output_tokens": 467,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "b5a25676",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 176000,
+        "input_tokens": 196142,
+        "output_tokens": 513,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "b7cc4da2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 197376,
+        "input_tokens": 239411,
+        "output_tokens": 565,
+        "reasoning_output_tokens": 11
+      }
+    },
+    {
+      "id": "b828a6b2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 98432,
+        "input_tokens": 120522,
+        "output_tokens": 404,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "b82d0dd6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 295680,
+        "input_tokens": 333922,
+        "output_tokens": 787,
+        "reasoning_output_tokens": 37
+      }
+    },
+    {
+      "id": "b8cabd09",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 149248,
+        "input_tokens": 173187,
+        "output_tokens": 420,
+        "reasoning_output_tokens": 15
+      }
+    },
+    {
+      "id": "b8d56b89",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 81152,
+        "input_tokens": 87684,
+        "output_tokens": 288,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "ba047686",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110720,
+        "input_tokens": 123072,
+        "output_tokens": 370,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "bb7ebd5c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 116992,
+        "input_tokens": 140139,
+        "output_tokens": 385,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "bdb825a3",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 136832,
+        "input_tokens": 170721,
+        "output_tokens": 433,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "bdf0e84b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 152832,
+        "input_tokens": 179870,
+        "output_tokens": 556,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "bdfef1b9",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 191872,
+        "input_tokens": 224408,
+        "output_tokens": 768,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "be541aa6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122112,
+        "input_tokens": 141416,
+        "output_tokens": 420,
+        "reasoning_output_tokens": 18
+      }
+    },
+    {
+      "id": "bf4f8b37",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 170752,
+        "input_tokens": 191244,
+        "output_tokens": 487,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "bf98bb38",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 140672,
+        "input_tokens": 159586,
+        "output_tokens": 429,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "bfb3bcc4",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 228864,
+        "input_tokens": 266152,
+        "output_tokens": 724,
+        "reasoning_output_tokens": 16
+      }
+    },
+    {
+      "id": "c0593d69",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 187264,
+        "input_tokens": 229013,
+        "output_tokens": 711,
+        "reasoning_output_tokens": 14
+      }
+    },
+    {
+      "id": "c0696888",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 154496,
+        "input_tokens": 187558,
+        "output_tokens": 523,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c1c000eb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 96896,
+        "input_tokens": 120312,
+        "output_tokens": 422,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c216174c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 117888,
+        "input_tokens": 138738,
+        "output_tokens": 452,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c35bfeed",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 171136,
+        "input_tokens": 212570,
+        "output_tokens": 732,
+        "reasoning_output_tokens": 10
+      }
+    },
+    {
+      "id": "c36b0d68",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 108672,
+        "input_tokens": 121448,
+        "output_tokens": 393,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c39f6edf",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 257152,
+        "input_tokens": 283153,
+        "output_tokens": 603,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c3dbec17",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 119424,
+        "input_tokens": 137434,
+        "output_tokens": 394,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c4c0e117",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 262784,
+        "input_tokens": 295491,
+        "output_tokens": 672,
+        "reasoning_output_tokens": 8
+      }
+    },
+    {
+      "id": "c56e69ca",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 307456,
+        "input_tokens": 343873,
+        "output_tokens": 1024,
+        "reasoning_output_tokens": 34
+      }
+    },
+    {
+      "id": "c60f4681",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 327168,
+        "input_tokens": 359133,
+        "output_tokens": 881,
+        "reasoning_output_tokens": 38
+      }
+    },
+    {
+      "id": "c6124506",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 118656,
+        "input_tokens": 140635,
+        "output_tokens": 412,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c738b934",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 143232,
+        "input_tokens": 166840,
+        "output_tokens": 621,
+        "reasoning_output_tokens": 24
+      }
+    },
+    {
+      "id": "c7e367e2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 126592,
+        "input_tokens": 150520,
+        "output_tokens": 503,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c80ca967",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 139648,
+        "input_tokens": 155850,
+        "output_tokens": 417,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c843c4ec",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110336,
+        "input_tokens": 122200,
+        "output_tokens": 376,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c9568c9b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 115968,
+        "input_tokens": 132675,
+        "output_tokens": 379,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c9c6a06a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 107904,
+        "input_tokens": 131360,
+        "output_tokens": 371,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "ca8e070b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 97280,
+        "input_tokens": 120901,
+        "output_tokens": 403,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "cbcd74ae",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 202752,
+        "input_tokens": 239310,
+        "output_tokens": 679,
+        "reasoning_output_tokens": 17
+      }
+    },
+    {
+      "id": "ccf29914",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 105728,
+        "input_tokens": 133758,
+        "output_tokens": 454,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "cdb47c5d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 162944,
+        "input_tokens": 187174,
+        "output_tokens": 527,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "cdc46516",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 145152,
+        "input_tokens": 164429,
+        "output_tokens": 470,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "cdd0e687",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 156288,
+        "input_tokens": 181542,
+        "output_tokens": 482,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "ce1cdb2d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 104320,
+        "input_tokens": 134879,
+        "output_tokens": 423,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "ce9aa351",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 228352,
+        "input_tokens": 281576,
+        "output_tokens": 810,
+        "reasoning_output_tokens": 38
+      }
+    },
+    {
+      "id": "cf62efad",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 129792,
+        "input_tokens": 154555,
+        "output_tokens": 429,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d0d61088",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 156160,
+        "input_tokens": 176693,
+        "output_tokens": 457,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d0e556eb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 124544,
+        "input_tokens": 154466,
+        "output_tokens": 520,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d16a18fe",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 109824,
+        "input_tokens": 121436,
+        "output_tokens": 354,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d1d8cf9f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 268672,
+        "input_tokens": 308303,
+        "output_tokens": 920,
+        "reasoning_output_tokens": 29
+      }
+    },
+    {
+      "id": "d1f82e80",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 288640,
+        "input_tokens": 322893,
+        "output_tokens": 777,
+        "reasoning_output_tokens": 49
+      }
+    },
+    {
+      "id": "d3300354",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 230656,
+        "input_tokens": 249887,
+        "output_tokens": 649,
+        "reasoning_output_tokens": 30
+      }
+    },
+    {
+      "id": "d3d7ec75",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 179968,
+        "input_tokens": 202277,
+        "output_tokens": 527,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d47ca5c8",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 172800,
+        "input_tokens": 193574,
+        "output_tokens": 521,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d63e8a7f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 132480,
+        "input_tokens": 156232,
+        "output_tokens": 487,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d6da3938",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 103936,
+        "input_tokens": 131864,
+        "output_tokens": 393,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d72fb64d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 186752,
+        "input_tokens": 224834,
+        "output_tokens": 649,
+        "reasoning_output_tokens": 17
+      }
+    },
+    {
+      "id": "d7c94023",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 109568,
+        "input_tokens": 121820,
+        "output_tokens": 460,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d83c4bf7",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 129024,
+        "input_tokens": 149467,
+        "output_tokens": 344,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d886b018",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 164352,
+        "input_tokens": 191682,
+        "output_tokens": 577,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "dae9f7e9",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 99328,
+        "input_tokens": 116018,
+        "output_tokens": 475,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "dbe1a814",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 125184,
+        "input_tokens": 149922,
+        "output_tokens": 449,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "dc41b134",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 230400,
+        "input_tokens": 271551,
+        "output_tokens": 668,
+        "reasoning_output_tokens": 20
+      }
+    },
+    {
+      "id": "dd53ab77",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 218240,
+        "input_tokens": 246467,
+        "output_tokens": 518,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "de0abc47",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 214656,
+        "input_tokens": 236377,
+        "output_tokens": 726,
+        "reasoning_output_tokens": 38
+      }
+    },
+    {
+      "id": "dea446d0",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 108416,
+        "input_tokens": 120373,
+        "output_tokens": 404,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "deb008ed",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 148992,
+        "input_tokens": 169553,
+        "output_tokens": 447,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "e033e796",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 112256,
+        "input_tokens": 131973,
+        "output_tokens": 414,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "e334d5c6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 132480,
+        "input_tokens": 147182,
+        "output_tokens": 445,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "e3a1d7f3",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 103424,
+        "input_tokens": 114364,
+        "output_tokens": 398,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "e4d36b58",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 109184,
+        "input_tokens": 123184,
+        "output_tokens": 392,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "e532c01e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 177792,
+        "input_tokens": 205233,
+        "output_tokens": 603,
+        "reasoning_output_tokens": 24
+      }
+    },
+    {
+      "id": "e71f7c92",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 106240,
+        "input_tokens": 120017,
+        "output_tokens": 402,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "e7292dab",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 208512,
+        "input_tokens": 247008,
+        "output_tokens": 753,
+        "reasoning_output_tokens": 15
+      }
+    },
+    {
+      "id": "e77d1287",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121600,
+        "input_tokens": 141341,
+        "output_tokens": 359,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "e823a94a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 164992,
+        "input_tokens": 192017,
+        "output_tokens": 585,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "e83245c5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 110592,
+        "input_tokens": 124704,
+        "output_tokens": 400,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "e9bb843a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 125568,
+        "input_tokens": 147404,
+        "output_tokens": 418,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "e9fde9fe",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 246144,
+        "input_tokens": 272495,
+        "output_tokens": 621,
+        "reasoning_output_tokens": 71
+      }
+    },
+    {
+      "id": "ea361b20",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122496,
+        "input_tokens": 148536,
+        "output_tokens": 743,
+        "reasoning_output_tokens": 28
+      }
+    },
+    {
+      "id": "eab07e81",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 172672,
+        "input_tokens": 190385,
+        "output_tokens": 456,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "eaba5c44",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 106368,
+        "input_tokens": 123331,
+        "output_tokens": 408,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "eb3cfd03",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 136704,
+        "input_tokens": 166518,
+        "output_tokens": 566,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "eb8cf28b",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 255360,
+        "input_tokens": 285256,
+        "output_tokens": 821,
+        "reasoning_output_tokens": 51
+      }
+    },
+    {
+      "id": "ebad58ed",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 147328,
+        "input_tokens": 161012,
+        "output_tokens": 566,
+        "reasoning_output_tokens": 12
+      }
+    },
+    {
+      "id": "ecca89b2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121472,
+        "input_tokens": 141542,
+        "output_tokens": 450,
+        "reasoning_output_tokens": 14
+      }
+    },
+    {
+      "id": "ecd9dda3",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 150784,
+        "input_tokens": 172343,
+        "output_tokens": 581,
+        "reasoning_output_tokens": 21
+      }
+    },
+    {
+      "id": "ecdb7d5e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 130432,
+        "input_tokens": 157902,
+        "output_tokens": 523,
+        "reasoning_output_tokens": 26
+      }
+    },
+    {
+      "id": "edb69441",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 109696,
+        "input_tokens": 121563,
+        "output_tokens": 398,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "edc22f24",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 114944,
+        "input_tokens": 130879,
+        "output_tokens": 489,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "edea0219",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 109952,
+        "input_tokens": 123778,
+        "output_tokens": 339,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "ee5252a3",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 114688,
+        "input_tokens": 130745,
+        "output_tokens": 363,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "ee68431d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 121984,
+        "input_tokens": 141314,
+        "output_tokens": 398,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "ee75b921",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 112256,
+        "input_tokens": 125466,
+        "output_tokens": 451,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "eec85674",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 169088,
+        "input_tokens": 185988,
+        "output_tokens": 586,
+        "reasoning_output_tokens": 11
+      }
+    },
+    {
+      "id": "eef545a0",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 133760,
+        "input_tokens": 163910,
+        "output_tokens": 399,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "eff00409",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 187136,
+        "input_tokens": 202717,
+        "output_tokens": 552,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "f02bec54",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 244992,
+        "input_tokens": 268575,
+        "output_tokens": 687,
+        "reasoning_output_tokens": 30
+      }
+    },
+    {
+      "id": "f078f429",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 132736,
+        "input_tokens": 161461,
+        "output_tokens": 431,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "f0882f6e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 228992,
+        "input_tokens": 273593,
+        "output_tokens": 772,
+        "reasoning_output_tokens": 89
+      }
+    },
+    {
+      "id": "f13eb38d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 274816,
+        "input_tokens": 310942,
+        "output_tokens": 833,
+        "reasoning_output_tokens": 45
+      }
+    },
+    {
+      "id": "f1d8a168",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 220032,
+        "input_tokens": 256313,
+        "output_tokens": 831,
+        "reasoning_output_tokens": 17
+      }
+    },
+    {
+      "id": "f1f9de44",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122240,
+        "input_tokens": 143755,
+        "output_tokens": 503,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "f23807ed",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 157568,
+        "input_tokens": 184051,
+        "output_tokens": 737,
+        "reasoning_output_tokens": 39
+      }
+    },
+    {
+      "id": "f2b221fd",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 157056,
+        "input_tokens": 184649,
+        "output_tokens": 621,
+        "reasoning_output_tokens": 27
+      }
+    },
+    {
+      "id": "f3496ca5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 156800,
+        "input_tokens": 182480,
+        "output_tokens": 607,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "f35bac4a",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 155392,
+        "input_tokens": 181784,
+        "output_tokens": 426,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "f43926d9",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 141952,
+        "input_tokens": 159423,
+        "output_tokens": 431,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "f4b2b1fb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 128256,
+        "input_tokens": 140467,
+        "output_tokens": 415,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "f61a096f",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 128896,
+        "input_tokens": 141535,
+        "output_tokens": 484,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "f90f2255",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 105472,
+        "input_tokens": 139265,
+        "output_tokens": 527,
+        "reasoning_output_tokens": 48
+      }
+    },
+    {
+      "id": "f928c075",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 122496,
+        "input_tokens": 150764,
+        "output_tokens": 565,
+        "reasoning_output_tokens": 16
+      }
+    },
+    {
+      "id": "f93031d2",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 120320,
+        "input_tokens": 143722,
+        "output_tokens": 433,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "f9c65fe6",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 128768,
+        "input_tokens": 152814,
+        "output_tokens": 468,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "f9f9cd61",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 112256,
+        "input_tokens": 126344,
+        "output_tokens": 386,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "fa504f5e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 166912,
+        "input_tokens": 193174,
+        "output_tokens": 801,
+        "reasoning_output_tokens": 45
+      }
+    },
+    {
+      "id": "fb56a896",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 221184,
+        "input_tokens": 251699,
+        "output_tokens": 780,
+        "reasoning_output_tokens": 15
+      }
+    },
+    {
+      "id": "fc0dbc35",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 130176,
+        "input_tokens": 142224,
+        "output_tokens": 515,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "fc7d35d5",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 145152,
+        "input_tokens": 174225,
+        "output_tokens": 508,
+        "reasoning_output_tokens": 9
+      }
+    },
+    {
+      "id": "fd006924",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 199296,
+        "input_tokens": 217531,
+        "output_tokens": 566,
+        "reasoning_output_tokens": 11
+      }
+    },
+    {
+      "id": "fdeddf71",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 136448,
+        "input_tokens": 165813,
+        "output_tokens": 752,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "fe18a443",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 109824,
+        "input_tokens": 132241,
+        "output_tokens": 422,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "fe41b553",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 156416,
+        "input_tokens": 185460,
+        "output_tokens": 514,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "fec652a9",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 106624,
+        "input_tokens": 128002,
+        "output_tokens": 378,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "ff311d07",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 158592,
+        "input_tokens": 182573,
+        "output_tokens": 604,
+        "reasoning_output_tokens": 48
+      }
+    },
+    {
+      "id": "ff8f3a22",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 186240,
+        "input_tokens": 212949,
+        "output_tokens": 602,
+        "reasoning_output_tokens": 8
+      }
+    },
+    {
+      "id": "ffa4e57e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 87552,
+        "input_tokens": 98707,
+        "output_tokens": 365,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "2c45ecbb",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 107904,
+        "input_tokens": 125943,
+        "output_tokens": 370,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "3c0c1b19",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 146304,
+        "input_tokens": 177396,
+        "output_tokens": 605,
+        "reasoning_output_tokens": 14
+      }
+    },
+    {
+      "id": "48ab5c3d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 152832,
+        "input_tokens": 172836,
+        "output_tokens": 592,
+        "reasoning_output_tokens": 30
+      }
+    },
+    {
+      "id": "579557d8",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 154240,
+        "input_tokens": 180356,
+        "output_tokens": 527,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "6fc8c511",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 152576,
+        "input_tokens": 184666,
+        "output_tokens": 576,
+        "reasoning_output_tokens": 31
+      }
+    },
+    {
+      "id": "8cb3280c",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 147584,
+        "input_tokens": 170662,
+        "output_tokens": 532,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "91d0775e",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 112128,
+        "input_tokens": 132843,
+        "output_tokens": 560,
+        "reasoning_output_tokens": 9
+      }
+    },
+    {
+      "id": "99bc5d0d",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 111360,
+        "input_tokens": 128058,
+        "output_tokens": 458,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "c5dfa558",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 126080,
+        "input_tokens": 156876,
+        "output_tokens": 446,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "id": "d5b9fda4",
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 107008,
+        "input_tokens": 118241,
+        "output_tokens": 338,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ]
+}
