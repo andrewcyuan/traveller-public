@@ -11,3 +11,4 @@ runs/
 *.sqlite
 *.sqlite-*
 .DS_Store
+*.log

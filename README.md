@@ -24,9 +24,9 @@ For Medium, use `--tier medium --output data/medium`. Use separate directories f
 
 ## Start an evaluation
 
-Set an Openrouter key in the `.env`. The default protocol uses `openai/gpt-6-luna` for retrieval, `typesafe/jev-1.13` for ranking, `qwen/qwen3.5-9b` for the reader, and `openai/gpt-5.2` for model-graded questions.
+Set an OpenRouter key in the `.env`. The default protocol uses `openai/gpt-6-luna` for retrieval, `typesafe/jev-1.13` for ranking, `qwen/qwen3.5-9b` for the reader, and `openai/gpt-5.2` for model-graded questions.
 
-The highest score I achieved was using Gemini 3.8 flash high. I wrote a separate adapter to the ai studio gemini CLI for this, but you should be able to use openrouter too. (openrouter was being unreliable for gemini while I was developing)
+The highest score I achieved (89.14%) used Gemini 3.8 Flash high for retrieval. I wrote a separate adapter for the Google AI Studio Gemini API (see the direct-provider routes below), but you should be able to use OpenRouter too. OpenRouter was unreliable for Gemini while I was developing.
 
 ```sh
 export OPENROUTER_API_KEY='your-key'
@@ -42,7 +42,7 @@ uv run --locked python -m delta_lme run \
   --tier small --workers 2 --budget-usd 15
 ```
 
-The budget API spending cap is derived from monitoring Openrouter spend. Using luna, my runs generally cost around $12, using gemini, around $76, and using opus, around $300.
+The budget API spending cap is derived from monitoring OpenRouter spend. A full Small run (451 questions) cost about $8.41 with Luna high, $70.80 with Gemini 3.8 Flash, and $71.49 with Claude Opus 5.5 medium.
 
 For Medium, change both `--data` and `--tier`, and use a fresh output directory.
 
@@ -62,3 +62,7 @@ Viewer generation makes no model calls.
 ## Source
 
 `delta_lme/` contains the runner, state-search retrieval, API clients, and budget handling. `strategies/delta/` contains prompts and source inspection tools. `evals/run_viewer/` contains offline reporting. `vendor/LongMemEval-V2/` contains only the native modules required at runtime. See [third-party notices](attribution.md) for source pins and the vendor modification.
+
+## License
+
+MIT. See `LICENSE`. The vendored `vendor/LongMemEval-V2` code keeps its own Apache 2.0 license.
